@@ -1,0 +1,110 @@
+/* css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* typography */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&display=swap");
+
+/* font-family: 'Kumbh Sans', sans-serif; */
+
+.color {
+  color: hsl(185, 75%, 39%);
+  color: hsl(229, 23%, 23%);
+  color: hsl(227, 10%, 46%);
+  color: hsl(0, 0%, 59%);
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-image: url(./images/bg-pattern-bottom.svg);
+  background-color: hsl(185, 75%, 39%);
+  background-size: contain;
+}
+
+main {
+  background-color: white;
+  width: 20rem;
+  border-radius: 10px;
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+  font-weight: 400;
+}
+
+main > header {
+  height: 7rem;
+  background-image: url(./images/bg-pattern-card.svg);
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 4rem;
+}
+main > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+main > img {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  position: absolute;
+  top: 4rem;
+  left: 6.5rem;
+}
+
+main > h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+}
+
+main > div > p {
+  font-size: 14px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+main > p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 1.5rem;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+main > hr {
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1.5rem;
+}
+
+footer > div {
+  text-align: center;
+}
+
+footer > div > h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+}
+
+footer > div > p {
+  color: hsl(0, 0%, 59%);
+  font-size: 13px;
+  font-weight: 400;
+}
